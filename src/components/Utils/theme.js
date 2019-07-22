@@ -13,6 +13,7 @@ export const theme = {
     center: "center"
   },
   media: {
-    phone: "@media(max-width: 700px)"
+    phone: "@media(max-width: 768px)",
+    tablet: "@media(max-width: 1170px)"
   }
 };

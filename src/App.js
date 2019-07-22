@@ -1,9 +1,12 @@
 import React, { Fragment } from "react";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/";
 import AppNavbar from "./components/Navbar";
 import Services from "./components/Services";
 import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
+import Cooperation from "./components/Cooperation";
+import Footer from "./components/Footer";
 import { theme } from "./components/Utils/theme";
 
 const GlobalStyle = createGlobalStyle`
@@ -13,6 +16,11 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
 }
 
+body{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6rem;
+}
+
 `;
 
 function App() {
@@ -20,11 +28,13 @@ function App() {
     <ThemeProvider theme={theme}>
       <Fragment>
         <GlobalStyle />
-        <Header>
-          <AppNavbar />
-        </Header>
-        <Services>xx</Services>
-        <Team>xx</Team>
+        <AppNavbar />
+        <Header />
+        <Services />
+        <Team />
+        <Testimonials />
+        <Cooperation />
+        <Footer />
       </Fragment>
     </ThemeProvider>
   );

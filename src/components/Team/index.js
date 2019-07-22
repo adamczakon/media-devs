@@ -2,7 +2,6 @@ import React from "react";
 import {
   SectionBackground,
   SectionGrid,
-  GridItem,
   Separator,
   Paragraph,
   H3,
@@ -19,12 +18,12 @@ const Team = () => {
   return (
     <SectionBackground background={showcase}>
       <H1 color={theme.color.light}>Our Team</H1>
-      <Separator color={theme.color.primary} />
+      <Separator color={theme.color.light} />
       <Paragraph color={theme.color.light} align='center'>
-        Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia
-        deserunt mollit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor.
       </Paragraph>
-      <SectionGrid>
+      <SectionGrid columns='repeat(3, 1fr)'>
         <Card>
           <CardImage>
             <ProfileImage src={profile1} />
@@ -41,9 +40,9 @@ const Team = () => {
             <ProfileImage src={profile2} />
           </CardImage>
           <CardDescription>
-            <H3 marginBottom='0.2rem'>John Doe</H3>
+            <H3 marginBottom='0.2rem'>Gregg Mitchell</H3>
             <Paragraph color={theme.color.secondary} margin='0'>
-              Front-end Developer
+              Back-end Developer
             </Paragraph>
           </CardDescription>
         </Card>
@@ -52,9 +51,9 @@ const Team = () => {
             <ProfileImage src={profile3} />
           </CardImage>
           <CardDescription>
-            <H3 marginBottom='0.2rem'>John Doe</H3>
+            <H3 marginBottom='0.2rem'>Chrystian Wells</H3>
             <Paragraph color={theme.color.secondary} margin='0'>
-              Front-end Developer
+              Graphic Designer
             </Paragraph>
           </CardDescription>
         </Card>
