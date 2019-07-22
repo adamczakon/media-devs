@@ -7,7 +7,7 @@ Development company landing page.
  Clone the repository:
 
 ```sh
-$git clone https://github.com/adamczakon/ForMovie.git
+$git clone https://github.com/adamczakon/media-devs.gi
 ```
 Run npm install inside root directory and start the application
 
