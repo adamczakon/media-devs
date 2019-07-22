@@ -7,7 +7,7 @@ Development company landing page.
  Clone the repository:
 
 ```sh
-$git clone https://github.com/adamczakon/media-devs.gi
+$git clone https://github.com/adamczakon/media-devs.git
 ```
 Run npm install inside root directory and start the application
 
